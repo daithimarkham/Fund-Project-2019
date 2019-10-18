@@ -18,6 +18,7 @@ My findings will be demonstrated by tables, graphs, histograms, scatter-plots, a
 
 # Contents 
 1. **Getting Started** 
+2. **Software need for this project.** 
 2. **Project Plan and purpose.** 
 3. **What's involved when investigating a data set and how Jupyter Notebook can be used as a tool.**
 4. **What is the TIPS Data Set**
@@ -58,18 +59,4 @@ Using Jupyter Notebook I will explain my arguments and findings, and attached wi
 
 
 
-## Getting Started
 
-When investigating data four steps to follow can be as follows;
-
-**1. Question**: What are you trying to resolve or achieve?
-
-**2. Analyze**: What tools are you going to use to present your findings?
-
-**3. Investigate**: Research and investigate the problem/sector you are trying to extract data from.
-
-**4. Repeat**: Keep repeating the process until you resolve the problem and present your findings.
-
-Data can be an excellent resource when trying to predict, forecast, improve decision-making or gain a competitive advantage. When investigating a data set you ask yourself what you want to get from it? What is the sole purpose of it, and will pulling data answer the problem you want to solve correctly?
-
-An excellent way of aiding in your investigations is by displaying results via graphs, scatter plots etc, which can be done by using the Pandas and SeaBorn libraries. Machine learning is about making predictions. This will display data and explore for eg. weekly, monthly, quarterly or yearly trends based on what you are looking for.
