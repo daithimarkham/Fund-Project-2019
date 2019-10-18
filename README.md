@@ -19,12 +19,12 @@ My findings will be demonstrated by tables, graphs, histograms, scatter-plots, a
 # Contents 
 1. **Getting Started** 
 2. **Software need for this project.** 
-2. **Project Plan and purpose.** 
-3. **What's involved when investigating a data set and how Jupyter Notebook can be used as a tool.**
-4. **What is the TIPS Data Set**
-5. **My Research and Investigation**
-6. **Findings**
-7. **Bibliography**
+3. **Project Plan and purpose.** 
+4. **What's involved when investigating a data set and how Jupyter Notebook can be used as a tool.**
+5. **What is the TIPS Data Set**
+6. **My Research and Investigation**
+7. **Findings**
+8. **Bibliography**
 
 ## 1. Getting Started
 
@@ -48,14 +48,21 @@ What software you will need to install to to get this project started.
 
 
 - You will need to download Anaconda, and a command line. I will be using Commander.
-
-- Jupyter Notebook will be displayed in your browser, when you type Juypter Notebook on your command line. From there you create a new Notebook, which we will be using to display our code and findings.
+- Create a Git Repository on Github, and clone it down to your terminal. 
+- CD in the folder you just created on Github. 
+- Jupyter Notebook will be displayed in your browser, when you type Juypter Notebook on your command line. From there you create a new Notebook, which we will be using to display our code and findings, and you're all set to go. 
 
 ## 3. Project Plan
 
-To start with we will be going through what is involved when setting out to investigate a data set, and how you can back up arguments using scripts of code through Jupyter Notebook, certain libraries which will illustrate and back up your findings. The purpose of this project was to gain skills in using Jupyter Notebook, how to use libraries to display data visualization and to improve my skills machine learning.
+To start with we will be going through what is involved when setting out to investigate a data set, and how you can back up arguments using scripts of code through Jupyter Notebook, certain libraries which will illustrate and back up your findings.
 
-Using Jupyter Notebook I will explain my arguments and findings, and attached will be graphs, scatter-plots and other visualization which will be outputted from Pandas and Seaborn libraries, along with screenshots of my work in the ReadMe. Finally I will provide a summary and draw my conclusion of the data set.
+The purpose of this project is to gain skills using Jupyter Notebook, how to use libraries to display data visualization, statistics, and to improve my skills in machine learning. We will be using the Tips data-set to demonstrate our findings.
+
+Using Jupyter Notebook I will explain my arguments and findings, and attached will be graphs, scatter-plots and other visualization which will be outputted from Pandas and SeaBorn libraries in my Jupyter Notebook. Along with the above data included will be screenshots of my work in the ReadMe, and various other techniques explained, which I used to demonstrate my findings. Finally I will provide a summary and draw my conclusion of the data set.
+
+
+
+
 
 
 
