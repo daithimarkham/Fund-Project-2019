@@ -12,9 +12,9 @@
 
 ## This project required me to research the well known Tips data-set, provide my own analysis of it and describe what kind of relationships were there between the variables.
 
-I will be using a Jupyter Notebook to illustrate my findings, and libraries such as Pandas and SeaBorn to illustrate my findings. Jupyter Notebook's are very powerful tools in terms of versatility, shareable and visualization.
+I will be using a Jupyter Notebook to illustrate my findings, along with libraries such as Pandas and SeaBorn. Jupyter Notebook's are very powerful tools in terms of versatility, shareable and visualization.
 
-My findings will be demonstrated by tables, graphs, histograms, scatter-plots, and other statistical tools. 
+My findings will be demonstrated by plots, histograms, boxplots, scatter-plots, and other statistical tools. 
 
 # Contents 
 1. **Getting Started** 
@@ -58,7 +58,7 @@ To start with we will be going through what is involved when setting out to inve
 
 The purpose of this project is to gain skills using Jupyter Notebook, how to use libraries to display data visualization, statistics, and to improve your skills in machine learning. We will be using the Tips data-set to demonstrate our findings.
 
-Using Jupyter Notebook I will explain my arguments and findings, attached will be graphs, scatter-plots and other data visualization, which will be outputted from Pandas and SeaBorn libraries in my Jupyter Notebook. Along with the above data, included will be screenshots of my work in the ReadMe, and various other techniques explained, which I used to demonstrate my findings. Finally I will provide a summary and draw my conclusion of the data set.
+Using Jupyter Notebook I will explain my arguments and findings, attached will be plots, scatter-plots and other data visualization, which will be outputted from Pandas and SeaBorn libraries in my Jupyter Notebook. Along with the above data, included will be screenshots of my work in the ReadMe, and various other techniques explained, which I used to demonstrate my findings. Finally I will provide a summary and draw my conclusion of the data set.
 
 ## 4. What's involved when investigating a data set and how Jupyter Notebook can be used as a tool to show relationships between variables, if any.
 
@@ -68,7 +68,13 @@ To start your research on the Tips data set, go through various websites, read a
 
 Basically we will be trying to predict the tip size based on the data for the waiter on a given time and day.
 
-Next download the Tips data-set via csv file, which will help you find the relationship or patterns between the values in the file, which are as follows, dining times, tips size, smokers or non-smokers etc. I will be using various scripts of code to calculate the stats, maximum, minimum and mean of the column rows in the csv, along with other visualization methods to demonstrate my findings, such as Seaborn and Jupyter, and some more libraries as necessary.  
+Next download the Tips data-set via csv file, which will help you find the relationship or patterns between the values in the file, which are as follows, dining times, tips size, smokers or non-smokers etc. You can find good CSV files on Github. I will be using various scripts of code to calculate the stats, maximum, minimum and mean of the column rows in the csv, along with other visualization methods to demonstrate my findings, such as SeaBorn and Jupyter, and some more libraries as necessary.  
+
+We will be using Jupyter Notebook to display all our work. This is an excellent tool and interactive document to show programmers work, combine comments and markdown with code, and visualizations, all in the same environment. It lets you keep a detailed record of your work. Also, the ease of use of the Jupyter Notebook means that you don't have to worry about reproducibility; just do all of your interactive work in notebooks, put them under version control, and commit regularly.
+
+Sometimes on Github, it won't open Jupyter Notebook files. If Github won't open this file, copy and paste the web address from Jupyter file on Github and paste in the following link.
+
+https://nbviewer.jupyter.org/
 
 
 ### Load the Iris data-set from a url. You will need to write the following code. This will display your data-set in Jupyter Notebook.
