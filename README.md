@@ -20,7 +20,7 @@ My findings will be demonstrated by plots, histograms, boxplots, scatter-plots, 
 1. **Getting Started** 
 2. **Software need for this project.** 
 3. **Project Plan and purpose.** 
-4. **What's involved when investigating a data set and how Jupyter Notebook can be used as a tool.**
+4. **What's involved when investigating a data set and how Jupyter Notebook and SeaBorn can be used as an investigative tool.**
 5. **What is the TIPS Data Set**
 6. **My Research, Investigation**
 7. **Findings**
@@ -60,6 +60,12 @@ The purpose of this project is to gain skills using Jupyter Notebook, how to use
 
 Using Jupyter Notebook I will explain my arguments and findings, attached will be plots, scatter-plots and other data visualization, which will be outputted from Pandas and SeaBorn libraries in my Jupyter Notebook. Along with the above data, included will be screenshots of my work in the ReadMe, and various other techniques explained, which I used to demonstrate my findings. Finally I will provide a summary and draw my conclusion of the data set.
 
+- Firstly we will be using the data-set to see what the tips were like, smokers/non-smokers, lunch/dinner, male/female, day, min tip, max tip etc. 
+
+- Secondly we will be discussing relationships between the values, total bill and tip amount, day of week and tip size, smoker versus non/smoker, lunch and dinner tips etc. If someone spends an x amount on their dinner, what would the tip be? Can we see a relationship in the evening time, esp at weekends when alcohol maybe involved and the tip size is increased due to this maybe? 
+
+- And finally analyzing all pairs of variables, or selecting certain subsets of the data. The aim here is to pick out interesting data, not your standard data. Should tips be raised or reduced for example.  
+
 ## 4. What's involved when investigating a data set and how Jupyter Notebook can be used as a tool to show relationships between variables, if any.
 
 **What data you are analyzing, and is it available to download via CSV file?**
@@ -70,14 +76,16 @@ Basically we will be trying to predict the tip size based on the data for the wa
 
 Next download the Tips data-set via csv file, which will help you find the relationship or patterns between the values in the file, which are as follows, dining times, tips size, smokers or non-smokers etc. You can find good CSV files on Github. I will be using various scripts of code to calculate the stats, maximum, minimum and mean of the column rows in the csv, along with other visualization methods to demonstrate my findings, such as SeaBorn and Jupyter, and some more libraries as necessary.  
 
-We will be using Jupyter Notebook to display all our work. This is an excellent tool and interactive document to show programmers work, combine comments and markdown with code, and visualizations, all in the same environment. It lets you keep a detailed record of your work. Also, the ease of use of the Jupyter Notebook means that you don't have to worry about reproducibility; just do all of your interactive work in notebooks, put them under version control, and commit regularly.
+We will be using Jupyter Notebook to display all our work. This is an excellent tool and interactive document to show programmers work, combine comments and markdown with code, and visualizations, all in the same environment. It lets you keep a detailed record of your work. Also, the ease of use of the Jupyter Notebook means that you can do all of your interactive work in notebooks, put them under version control, and commit regularly.
 
-Sometimes on Github, it won't open Jupyter Notebook files. If Github won't open this file, copy and paste the web address from Jupyter file on Github and paste in the following link.
+SeaBorn is a Python package for creating illuminating plots from data-sets. The tutorial provided with SeaBorn covers much more than just the use of SeaBorn - it teaches how to use plots effectively. SeaBorn contains many example data-sets that are installed with SeaBorn itself.
+
+Sometimes on Github, it won't open Jupyter Notebook files. If Github won't open this file, copy and paste the URL address from the Jupyter file on Github and paste in the following link. This will display it every time you wish to viw it.
 
 https://nbviewer.jupyter.org/
 
 
-### Load the Iris data-set from a url. You will need to write the following code. This will display your data-set in Jupyter Notebook.
+### Load the Tips data-set from a url. You will need to write the following code. This will display your data-set in Jupyter Notebook.
 
 import pandas as pd
 
@@ -91,12 +99,12 @@ df
 
 - 2. Pandas: Manipulates and analyzes data, for eg CSV files or SQL databases.
 
-- 3. Matplotlib: A Python plotting library which plots and displays data on graphs, histograms, bar-charts, scatterplots etc.
+- 3. Matplotlib: A Python plotting library which plots and displays data on graphs, histograms, bar-charts, scatter-plots etc.
 
-- 4. Seaborn: A Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. (Seaborn) 
+- 4. SeaBorn: A Python data visualization library based on Matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. (SeaBorn) 
 
 
-5. **What is the TIPS Data Set**
+## 5. **What is the TIPS Data Set**
 
 
 - The Tips Data-Set is a well known set of data recorded by a waiter over a period of months, 244 days, containing seven variables. 
@@ -111,9 +119,21 @@ df
 6. Time of the day: Lunch/Dinner.
 7. Size of the party.
 
-Our CSV file will consist of seven columns of data and it was recorded over 244 days, which will be our Index column. (https://www.kaggle.com/jsphyg/tipping) 
+Our CSV file will consist of seven columns of data, it was recorded over 244 days, which will be our Index column. (https://www.kaggle.com/jsphyg/tipping) 
 
 
+## 6. **My Research, Investigation**
+
+
+
+## 7. **Findings**
+## 8. **Bibliography**
+
+https://seaborn.pydata.org/tutorial 
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+
+https://numpy.org/devdocs/user/quickstart.html
 
 
 
