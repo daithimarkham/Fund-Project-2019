@@ -80,7 +80,7 @@ We will be using Jupyter Notebook to display all our work. This is an excellent 
 
 SeaBorn is a Python package for creating illuminating plots from data-sets. The tutorial provided with SeaBorn covers much more than just the use of SeaBorn - it teaches how to use plots effectively. SeaBorn contains many example data-sets that are installed with SeaBorn itself.
 
-Sometimes on Github, it won't open Jupyter Notebook files. If Github won't open this file, copy and paste the URL address from the Jupyter file on Github and paste in the following link. This will display it every time you wish to viw it.
+Sometimes on Github, it won't open Jupyter Notebook files. If Github won't open this file, copy and paste the URL address from the Jupyter file on Github and paste in the following link. This will display it every time you wish to view it.
 
 https://nbviewer.jupyter.org/
 
@@ -133,8 +133,11 @@ https://seaborn.pydata.org/tutorial
 
 https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
 
-https://numpy.org/devdocs/user/quickstart.html
+https://numpy.org/devdocs/user/quickstart.html 
 
+https://www.tutorialspoint.com/seaborn/seaborn_pair_grid.htm
+
+https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch12/5214889-eng.htm 
 
 
 
