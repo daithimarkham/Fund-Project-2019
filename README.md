@@ -149,11 +149,56 @@ After our research and investigation into the dat-set, using Pandas and Seaborn,
 7. Male tip size was 485.07, Female tip size was 246.51.
 8. Dinner total bills was 176, lunch total bills was 76. 
 
-I think the stat which stands out the most is the size of the dinner party. The greater the size of the party, the more the tip reduces. This also applies to a female bill payer, as males tend to tip more. We can also see that the tips are extremely low on Fridays, due to how quiet it is from total bills paid. 
+Fri	
+size total_bill     tip	percent
+1	8.58	1.92	22.377622
+2	261.15	42.31	16.201417
+3	15.98	3.00	18.773467
+4	40.17	4.73	11.774956
 
+Sat
+size total_bill     tip	percent
+1	10.32	2.00	19.379845
+2	892.37	133.43	14.952318
+3	459.17	68.36	14.887732
+4	388.39	53.61	13.803136
+5	28.15	3.00	10.657194
 
+Sun
+size total_bill     tip	percent
+2	684.84	109.86	16.041703
+3	332.76	46.81	14.067196
+4	480.39	73.58	15.316722
+5	81.00	12.14	14.987654
+6	48.17	5.00	10.379905
 
+Thur
+size total_bill     tip	percent	
+1	10.07	1.83	18.172790
+2	727.53	117.24	16.114799
+3	76.64	10.77	14.052714
+4	149.75	21.09	14.083472
+5	41.19	5.00	12.138869
+6	91.15	15.90	17.443774
 
+I think the stat which stands out the most is the size of the dinner party. The greater the size of the party, the more the tip reduces. It is clear from the stats above that the most tips and totals bills received, was by parties of two, which had an average tip size the greatest, over the four days. This size table, requires less work than large tables, and generates more in tip size. 
+
+We can see that females seem to have more of a relationship in tipping, 15%. Males have less of a relationship, tips can vary up and down a little from the average. 
+
+                T.Bill  Tip     Size Percent Tip       
+Female	Dinner	999.08	156.11	128	 15.625375
+
+        Lunch	571.87	90.40	86   15.807788
+
+Male	Dinner	2661.22	389.96	335	 14.653430
+
+        Lunch	595.60	95.11	78	 15.968771
+
+We can also see that the tips are extremely low on Fridays, due to how quiet it is from total bills paid. If you are a waiter here, management need to roster employees accordingly with the busy days, so all waiters can get an equal chance to earn the same amount of tips as each other, based on service of course. 
+
+Other interesting stats included, times. Dinner had 176 bills, while lunch only had 68. If you are a waiter, you want to be working on evening shift, as more tips are clearly generated. Males seemed to pay more bills at the weekend, when the dinner size was two. 
+
+The last set of variables I found interesting was smokers. Male smokers tipped less @ 13.5 percent tip size vs total bill. While male non-smokers tipped 15.7%. Female non-smokers tipped 15.7% of total bill, while female smokers tipped the highest @ 16.3%. So clearly from the above, female smokers that generate the highest tip vs total bill. We also found out using a plot from Seaborn, that smokers vs non-smokers seemed to be very similar on a Saturday dinner time, could be down to alcohol, as Saturday tends to be the night out, which most people will have drinks. So again, female tippers who smoke on a Saturday night out, will prob generate most tips for waiting staff in this particular restaurant.
 
 
 
