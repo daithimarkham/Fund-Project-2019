@@ -125,15 +125,34 @@ Our CSV file will consist of seven columns of data, it was recorded over 244 day
 
 ## 6. **My Research, Investigation**
 
-I began my research by googling the data-set, which I found information on the data-set quite easily. I found data-sets which I could import and used it to display stats through Pandas, and visualization, in terms of plots and trying to identify relationships between the variables, through SeaBorn. 
+I began my research by googling the waiter tips data-set, where I found information on the data-set quite easily. I found data-sets which I could import and used it to display stats through Pandas, and visualization, in terms of plots and trying to identify relationships between the variables, through SeaBorn. 
 
 
-A waiters tips can be determined by many factors, such as location, quality of food and service, size of the party, smoking or non-smoking etc. I quickly found out using various code I found online and on the Pandas Tutorial page, that I could get all kinds of stats on the data-set. This proved very quickly to be helpful, as I could spot stats and trends straight away. The code which was used gave us tip-size for the bills, percentage tip-size, smoker vs non-smoker tip-size, busy days of the week, time of day which was busier and so on. 
+A waiters tips can be determined by many factors, such as location, quality of food and service, size of the party, smoking or non-smoking etc. Our main focus, was to try and determine, **what factors determined tip-size**? Are there patterns as to how customers tip, such as total bill, time etc. I quickly found out using various code I found online, and on the Pandas Tutorial page, that I could get all kinds of stats on the data-set. This proved very quickly to be helpful, as I could spot stats and trends straight away. The code which was used gave us tip-size for the bills, percentage tip-size, smoker vs non-smoker tip-size, busy days of the week, time of day which was busier and so on. 
 
-After exploring the statistics using Pandas, we next moved on, using <a href="https://seaborn.pydata.org/" target="_blank">Seaborn</a>, a very effective tool for data visualization. It provides a high-level interface for drawing attractive and informative statistical graphics. Using the library displayed all kinds of relationships, which helped us determine many relationships between the variables. For example, we could easily identify a relationship among non-smokers, smokers seemed more spread out on the plots, and less unpredictable, in terms of tipping. Many types of plots were used to display trends, relationships using this library.
+After exploring the statistics using <a href="https://pandas.pydata.org/" target="_blank">Pandas</a>, we next moved on, using <a href="https://seaborn.pydata.org/" target="_blank">Seaborn</a>, a very effective tool for data visualization. It provides a high-level interface for drawing attractive and informative statistical graphics. Using the library displayed all kinds of relationships, which helped us determine many relationships between the variables. For example, we could easily identify a relationship among non-smokers, smokers seemed more spread out on the plots, and less unpredictable, in terms of tipping. Many types of plots were used to display trends, relationships using this library.
 
 
 ## 7. **Findings**
+
+After our research and investigation into the dat-set, using Pandas and Seaborn, we could determine, what factors determined tip-size, and helped us predict what the tip-size was going to be on a given day, and time. This could be done through smokers or non, size of the party, dinner vs lunch, day of the week and sex.
+
+- Summary of the statistics we got from the variables:
+1. Total bill average was 20 Dollars.
+2. Tip average was 3 Dollars.
+3. Average size of the party was 2.5 people.
+- 156 total bills paid by size of party, 2 people. 
+- 38 bills was party size 3, and 37 was party size four.
+4. Saturday and Sunday were the busiest days , 87 and 76 total bills. Friday had 19, and Thursday 62.
+5. Smokers - 93, Non- Smokers 151. 
+6. Male bill payers - 157, Female bill payers totalled 87. 
+7. Male tip size was 485.07, Female tip size was 246.51.
+8. Dinner total bills was 176, lunch total bills was 76. 
+
+I think the stat which stands out the most is the size of the dinner party. The greater the size of the party, the more the tip reduces. This also applies to a female bill payer, as males tend to tip more. We can also see that the tips are extremely low on Fridays, due to how quiet it is from total bills paid. 
+
+
+
 
 
 
