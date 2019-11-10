@@ -130,7 +130,7 @@ I began my research by googling the waiter tips data-set, where I found informat
 
 A waiters tips can be determined by many factors, such as location, quality of food and service, size of the party, smoking or non-smoking etc. Our main focus, was to try and determine, **what factors determined tip-size**? Are there patterns as to how customers tip, such as total bill, time etc. I quickly found out using various code I found online, and on the Pandas Tutorial page, that I could get all kinds of stats on the data-set. This proved very quickly to be helpful, as I could spot stats and trends straight away. The code which was used gave us tip-size for the bills, percentage tip-size, smoker vs non-smoker tip-size, busy days of the week, time of day which was busier and so on. 
 
-After exploring the statistics using <a href="https://pandas.pydata.org/" target="_blank">Pandas</a>, we next moved on, using <a href="https://seaborn.pydata.org/" target="_blank">Seaborn</a>, a very effective tool for data visualization. It provides a high-level interface for drawing attractive and informative statistical graphics. Using the library displayed all kinds of relationships, which helped us determine many relationships between the variables. For example, we could easily identify a relationship among non-smokers, smokers seemed more spread out on the plots, and less unpredictable, in terms of tipping. Many types of plots were used to display trends, relationships using this library.
+After exploring the statistics using <a href="https://pandas.pydata.org/" target="_blank">Pandas</a>, we next moved on, using <a href="https://seaborn.pydata.org/" target="_blank">Seaborn</a>, a very effective tool for data visualization. It provides a high-level interface for drawing attractive and informative statistical graphics. Using the library displayed all kinds of relationships, which helped us determine many relationships between the variables. For example, we could easily identify a relationship among non-smokers, smokers seemed more spread out on the plots, and less unpredictable, in terms of tipping. Many types of plots were used to display trends, and identify relationships, using this library.
 
 
 ## 7. **Findings**
@@ -141,13 +141,29 @@ After our research and investigation into the dat-set, using Pandas and Seaborn,
 1. Total bill average was 20 Dollars.
 2. Tip average was 3 Dollars.
 3. Average size of the party was 2.5 people.
-- 156 total bills paid by size of party, 2 people. 
-- 38 bills was party size 3, and 37 was party size four.
+-   156 total bills paid by size of party, 2 people. 
+-   38 bills was party size 3, and 37 was party size four.
 4. Saturday and Sunday were the busiest days , 87 and 76 total bills. Friday had 19, and Thursday 62.
 5. Smokers - 93, Non- Smokers 151. 
 6. Male bill payers - 157, Female bill payers totalled 87. 
 7. Male tip size was 485.07, Female tip size was 246.51.
 8. Dinner total bills was 176, lunch total bills was 76. 
+
+Thur
+
+size total_bill     tip	percent	
+
+1	10.07	1.83	18.172790
+
+2	727.53	117.24	16.114799
+
+3	76.64	10.77	14.052714
+
+4	149.75	21.09	14.083472
+
+5	41.19	5.00	12.138869
+
+6	91.15	15.90	17.443774
 
 Fri	
 
@@ -189,32 +205,22 @@ size total_bill     tip	percent
 
 6	48.17	5.00	10.379905
 
-Thur
 
-size total_bill     tip	percent	
-
-1	10.07	1.83	18.172790
-
-2	727.53	117.24	16.114799
-
-3	76.64	10.77	14.052714
-
-4	149.75	21.09	14.083472
-
-5	41.19	5.00	12.138869
-
-6	91.15	15.90	17.443774
 
 I think the stat which stands out the most is the size of the dinner party. The greater the size of the party, the more the tip reduces. It is clear from the stats above that the most tips and totals bills received, was by parties of two, which had an average tip size the greatest, over the four days. This size table, requires less work than large tables, and generates more in tip size. 
 
 We can see that females seem to have more of a relationship in tipping, 15%. Males have less of a relationship, tips can vary up and down a little from the average. 
 
                 T.Bill  Tip     Size   Percent Tip       
-Female	Dinner	999.08	156.11	128	   15.625375
+Female
+
+	Dinner	999.08	156.11	128	   15.625375
 
         Lunch	571.87	90.40	86     15.807788
 
-Male	Dinner	2661.22	389.96	335	   14.653430
+Male
+
+	Dinner	2661.22	389.96	335	   14.653430
 
         Lunch	595.60	95.11	78	   15.968771
 
@@ -222,7 +228,11 @@ We can also see that the tips are extremely low on Fridays, due to how quiet it 
 
 Other interesting stats included, times. Dinner had 176 bills, while lunch only had 68. If you are a waiter, you want to be working on evening shift, as more tips are clearly generated. Males seemed to pay more bills at the weekend, when the dinner size was two. 
 
-The last set of variables I found interesting was smokers. Male smokers tipped less @ 13.5 percent tip size vs total bill. While male non-smokers tipped 15.7%. Female non-smokers tipped 15.7% of total bill, while female smokers tipped the highest @ 16.3%. So clearly from the above, female smokers that generate the highest tip vs total bill. We also found out using a plot from Seaborn, that smokers vs non-smokers seemed to be very similar on a Saturday dinner time, could be down to alcohol, as Saturday tends to be the night out, which most people will have drinks. So again, female tippers who smoke on a Saturday night out, will prob generate most tips for waiting staff in this particular restaurant.
+Another set of variables I found interesting was smokers. Male smokers tipped less @ 13.5 percent tip size vs total bill. While male non-smokers tipped 15.7%. Female non-smokers tipped 15.7% of total bill, while female smokers tipped the highest @ 16.3%. So clearly from the above, female smokers generate the highest tip vs total bill.
+
+We also found out using a plot from Seaborn, that smokers vs non-smokers seemed to be very similar on a Saturday dinner time, could be down to alcohol, as Saturday tends to be the night out which quite a few people tend to have drinks, which could be related. Female tippers who smoke on a Saturday night out, will tip the highest, for waiting staff in this particular restaurant on a Saturday, dinner time. 
+
+Also this data was recorded in the 90's, as demographics have changed over the previous few decades I'm sure the stats would be quite different now in terms of male vs female bill payers. The same could also be said for smoking which is banned in a considerable amount of countries. Overall, it was an excellent data-set for learning how to work with, and extract stats, how to chop and change data, and to visualize and plot data.
 
 
 
