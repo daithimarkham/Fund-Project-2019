@@ -211,18 +211,18 @@ I think the stat which stands out the most is the size of the dinner party. The 
 
 We can see that females seem to have more of a relationship in tipping, 15%. Males have less of a relationship, tips can vary up and down a little from the average. 
 
-                T.Bill  Tip     Size   Percent Tip       
+        T.Bill  Tip     Size   Percent Tip       
 Female
 
-	Dinner	999.08	156.11	128	   15.625375
+Dinner	999.08	156.11	 128     15.625375
 
-        Lunch	571.87	90.40	86     15.807788
+Lunch	571.87	90.40	  86     15.807788
 
 Male
 
-	Dinner	2661.22	389.96	335	   14.653430
+Dinner	2661.22	389.96	  335     14.653430
 
-        Lunch	595.60	95.11	78	   15.968771
+Lunch	595.60	95.11	   78	  15.968771
 
 We can also see that the tips are extremely low on Fridays, due to how quiet it is from total bills paid. If you are a waiter here, management need to roster employees accordingly with the busy days, so all waiters can get an equal chance to earn the same amount of tips as each other, based on service of course. 
 
@@ -232,7 +232,11 @@ Another set of variables I found interesting was smokers. Male smokers tipped le
 
 We also found out using a plot from Seaborn, that smokers vs non-smokers seemed to be very similar on a Saturday dinner time, could be down to alcohol, as Saturday tends to be the night out which quite a few people tend to have drinks, which could be related. Female tippers who smoke on a Saturday night out, will tip the highest, for waiting staff in this particular restaurant on a Saturday, dinner time. 
 
-Also this data was recorded in the 90's, as demographics have changed over the previous few decades I'm sure the stats would be quite different now in terms of male vs female bill payers. The same could also be said for smoking which is banned in a considerable amount of countries. Overall, it was an excellent data-set for learning how to work with, and extract stats, how to chop and change data, and to visualize and plot data.
+Also this data was recorded in the 90's, as demographics have changed over the previous few decades I'm sure the stats would be quite different now in terms of male vs female bill payers. The same could also be said for smoking which is banned in a considerable amount of countries.
+
+The tip size is 15% of the total bill in America. If you receive above average service and you deem it to be exceptional, the tips size is said to be a customary 20%/25%. In most places a good tip is deemed to be 20%. As we can see from the stats above, this was not met, only on few occasions, usually by table sizes of one. The bigger table size, left below the average on most occasions, of between 10 and 12%. Using stats like these can help management to improve service and enhance business.  
+
+Overall, it was an excellent data-set for learning how to work with, and extract stats, how to chop and change data, and to visualize and plot data.
 
 
 
