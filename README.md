@@ -67,7 +67,7 @@ Using Jupyter Notebook I will display my findings, stats , attached will be plot
 
 - And finally analyzing all pairs of variables, or selecting certain subsets of the data. The aim here is to pick out interesting data, not your standard data. Should tips be raised or reduced for example. When was the data set recorded? Maybe the gap between men and women bill-payers has reduced greatly since then. Maybe smoking has also reduced since then, due to a more health conscious population.
 
-## 4. What's involved when investigating a data set and how Jupyter Notebook can be used as a tool to show relationships between variables, if any.
+## 4. What's involved when investigating a data set and how Jupyter Notebook can be used as a tool to show relationships between variables.
 
 **What data you are analyzing, and is it available to download via CSV file?**
 
@@ -212,17 +212,17 @@ I think the stat which stands out the most is the size of the dinner party. The 
 We can see that females seem to have more of a relationship in tipping, 15%. Males have less of a relationship, tips can vary up and down a little from the average. 
 
         T.Bill  Tip     Size   Percent Tip       
-Female
+**Female**
 
-Dinner	999.08	156.11	 128     15.625375
+Dinner	999.08	  156.11	   128      15.625375
 
-Lunch	571.87	90.40	  86     15.807788
+Lunch	571.87	   90.40	    86      15.807788
 
-Male
+**Male**
 
-Dinner	2661.22	389.96	  335     14.653430
-
-Lunch	595.60	95.11	   78	  15.968771
+Dinner	2661.22	  389.96	   335      14.653430
+ 
+Lunch	595.60	   95.11	    78	    15.968771
 
 We can also see that the tips are extremely low on Fridays, due to how quiet it is from total bills paid. If you are a waiter here, management need to roster employees accordingly with the busy days, so all waiters can get an equal chance to earn the same amount of tips as each other, based on service of course. 
 
