@@ -149,67 +149,10 @@ After our research and investigation into the dat-set, using Pandas and Seaborn,
 7. Male tip size was 485.07, Female tip size was 246.51.
 8. Dinner total bills was 176, lunch total bills was 76. 
 
-Thur
-
-size total_bill     tip	percent	
-
-1	10.07	1.83	18.172790
-
-2	727.53	117.24	16.114799
-
-3	76.64	10.77	14.052714
-
-4	149.75	21.09	14.083472
-
-5	41.19	5.00	12.138869
-
-6	91.15	15.90	17.443774
-
-Fri	
-
-size total_bill     tip	percent
-
-1	8.58	1.92	22.377622
-
-2	261.15	42.31	16.201417
-
-3	15.98	3.00	18.773467
-
-4	40.17	4.73	11.774956
-
-Sat
-
-size total_bill     tip	percent
-
-1	10.32	2.00	19.379845
-
-2	892.37	133.43	14.952318
-
-3	459.17	68.36	14.887732
-
-4	388.39	53.61	13.803136
-
-5	28.15	3.00	10.657194
-
-Sun
-
-size total_bill     tip	percent
-
-2	684.84	109.86	16.041703
-
-3	332.76	46.81	14.067196
-
-4	480.39	73.58	15.316722
-
-5	81.00	12.14	14.987654
-
-6	48.17	5.00	10.379905
-
-
 
 I think the stat which stands out the most is the size of the dinner party. The greater the size of the party, the more the tip reduces. It is clear from the stats above that the most tips and totals bills received, was by parties of two, which had an average tip size the greatest, over the four days. This size table, requires less work than large tables, and generates more in tip size. 
 
-We can see that females seem to have more of a relationship in tipping, 15%. Males have less of a relationship, tips can vary up and down a little from the average. 
+We saw that females seem to have more of a relationship in tipping, 15%. Males have less of a relationship, tips can vary up and down a little from the average. 
 
         T.Bill  Tip     Size   Percent Tip       
 **Female**
@@ -236,7 +179,7 @@ Also this data was recorded in the 90's, as demographics have changed over the p
 
 The tip size is 15% of the total bill in America. If you receive above average service and you deem it to be exceptional, the tips size is said to be a customary 20%/25%. In most places a good tip is deemed to be 20%. As we can see from the stats above, this was not met, only on few occasions, usually by table sizes of one. The bigger table size, left below the average on most occasions, of between 10 and 12%. Using stats like these can help management to improve service and enhance business.  
 
-Overall, it was an excellent data-set for learning how to work with, and extract stats, how to chop and change data, and to visualize and plot data.
+Overall, it was an excellent data-set for learning how to extract data and pull all kinds of stats, how to chop and change data, and to visualize and plot data.
 
 
 
